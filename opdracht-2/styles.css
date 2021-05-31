@@ -1,5 +1,69 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+body{
+    font-size: 18px;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+    flex-basis: 400px;
+}
+
+.three .list li {
+    align-items: flex-start;
+}
+
+.Edhub {
+    height: 18px;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.five article{
+    flex-basis: 360px;
+    flex-grow: 1;
+}
 
 /* Schrijf hier  jouw CSS! */
